@@ -1,0 +1,40 @@
+*backend_node
+npm init -y
+
+*En package.json -> después de main añadir "type": "module"
+
+npm i express cors mysql2 sequelize (instalar todas las dependencias)
+
+*Crear estructura de proyecto*
+backend_node
+    controllers
+    database(db.js conexión a la BD)
+    models
+    routes
+app.js
+
+*Crear consultas CRUD
+*Luego crontroladores
+*Conexión a BD
+*Configuración de rutas
+
+*Instalar extensión Thunder Client (API Test)
+
+*Para que se guarden los cambios realizados automáticamente mientras el servidor está corriendo
+node --watch app.js
+
+
+*****/////****
+
+*fronted_node
+npx create-react-app nombreProyecto
+npm start (en la carpeta del nombreProyecto)
+
+*Axios. para hacer peticiones al backend
+npm install axios react-router-dom
+npm i bootstrap (importar bootstrap import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.css'; en el index.js)
+
+
+*editBlog.js
+línea 11 const {id} = useParams() //id se devuelve como un objeto
